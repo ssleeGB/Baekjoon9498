@@ -8,8 +8,28 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(void)
+{
+    int num;
+    scanf("%d", &num);
+    
+    if (90<=num && num<=100)
+    {
+        printf("A \n");
+    }
+    else if (80<=num && num<90)
+    {
+        printf("B \n");
+    }
+    else if (70<=num && num<80)
+    {
+        printf("C \n");
+    }
+    else if (60<=num && num<70)
+    {
+        printf("D \n");
+    }
+    else
+        printf("F \n");
     return 0;
 }
